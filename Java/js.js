@@ -351,7 +351,7 @@ function f21(){
                         if (selecao != 1  && selecao != 2){
                         alert(" selecione um espaço para escrever !")
                         }
-                    }
+                    }  
                 
                     function f18(){
                         console.log("O valor da primeira linha é: "+linha1+"\n"+"O valor da segunda linha é : "+linha2)
