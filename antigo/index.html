@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Frases </title>
+   <script src="Java/js.js"></script>
+   <link rel="stylesheet" href="CSS/style.css">
+</head>   
+<header class="navbarra">
+    <h1> Projeto java script </h1>   
+
+        <button onclick="f20()" class="botaoincio"> Iniciar </button>
+
+    <p style="display:inline-block; margin-left: 2%;color: #f8fef4;"> Projeto em  <strong>Desenvolvimento</strong></p>
+
+</header>
+<body>  
+
+    <div class="espaçamento"></div>
+
+    <div id="telainicio" class="fundo" style="display: block;"> 
+            <h1 style="text-align: center;"> Bem vindo ao Quiz </h1>
+            <h2> Este é um projeto de java script</h2>
+            <img src="img/inicio.avif" style="width: 60%;" alt="">
+            <p> Dev: <strong>EllCTCH</strong></p>
+
+            </div>    
+    </div> 
+
+
+    <div id="teladecarregamento" class="fundo" style="display: none;"> 
+            <h1 style="text-align: center;"> Carregando dados ... </h1>
+            <img style="width: 80%;" src="img/loading.gif" alt="">
+            <div style="height: 400px;">
+
+            </div>
+        
+    </div>
+
+
+    <div id="questao" style="display: none;"> 
+        <div class="fundo">
+            <div class="fundo2">
+                <br>
+                <h1 class="titulo"> Complete A frase de forma correta </h1>
+                <h2 id="questaotitulo"> Questão numero um </h2>
+        <h3 class="frases">1* O carro precisa de </h3><h3 id="palavra1" onclick="f4()" class="frases2">........ </h3><h3 class="frases"> Para continuar Parando.</h3>
+        <br>
+        <h3 class="frases">2* A motocicleta precisa de </h3><h3 id="palavra2" onclick="f5()" class="frases2">........ </h3><h3 class="frases"> Para continuar seguindo.</h3>
+            <br>
+            <h1 id="derrota" style="color: red; display: none;"> Você errou!  </h1>
+            <h1 id="vitoria" style=" display: none;">Você acertou ! </h1>
+
+                        <img id="fotoprincipal" class="toninho" src="img/1.jpg" alt=""> <br>
+                        <div class="tela1">
+                            <button class="botoes" onclick="f10()"> Carro </button>
+                            <button class="botoes" onclick="f11()" > Pneu </button> <br>
+                            <button class="botoes" onclick="f12()" > Freio </button>
+                            <button class="botoes" onclick="f13()" > Oleo </button>
+                        </div >
+                        
+                        <div class="tela2">
+                            <button class="corrigir" onclick="f18()" > Corrigir </button>
+                        </div>
+                        <h1 id="volta" style="display: none;"> Recomeçando .... </h1>
+                
+                        <br>
+                        <p> Projeto java script <br> dev: <strong>EllCTCH</strong> </p>
+
+
+                    <p class="fim"> fim da pagina </p>
+
+            </div>
+            
+
+        </div>
+ </div>
+
+</body>
+</html>

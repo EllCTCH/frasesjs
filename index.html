@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Frases </title>
+    <script src="Java/js.js"></script>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<header class="navbarra">
+    <h1> Projeto java script </h1>
+
+
+    <p style="display:inline-block; margin-left: 2%;color: #f8fef4;"> Projeto em constante
+        <strong>Desenvolvimento</strong>
+    </p>
+
+</header>
+
+<body>
+
+    <div class="espaçamento"></div>
+
+    <div id="telainicio" class="fundo imagen1" style="display: block;">
+        <div style="display: flex;">
+
+            <div class="lado">
+                <h1> Bem vindo ao Quiz </h1>
+                <h2> Este é um projeto de java script</h2>
+                <p> Projeto para estudos no ambito front-end sem nenhum framework usando somente java script</p>
+                <p> Dev: Elvis Henrique AP Silva <strong>(EllCTCH)</strong></p>
+            </div>
+
+            <div class="lado">
+                <div class="lado2">
+
+                    <button onclick="f20()" class="botaoincio"> Iniciar </button>
+                    <button onclick="" class="botaoincio"> Sobre </button>
+                    <button onclick="" class="botaoincio"> Creditos </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+    <div id="teladecarregamento" class="fundo imagen2" style="display: none;">
+        <h1 style="text-align: center;"> Carregando dados ... </h1>
+
+        <div style="height: 400px;">
+
+        </div>
+
+    </div>
+
+
+    <div id="questao" class="fundo" style="display: none;">
+
+                <h1 id="derrota" style="color: red; display: none;"> Você errou! </h1>
+                <h1 id="vitoria" style=" display: none;">Você acertou ! </h1>
+
+        <div style="display: flex; height: 40dvh;" >
+
+            <div class="lado">
+
+                <h1 class="titulo"> Complete A frase de forma correta </h1>
+                <h2 id="questaotitulo"> Questão numero um </h2>
+                <h3 class="frases">1* O carro precisa de </h3>
+                <h3 id="palavra1" onclick="f4()" class="frases2">........ </h3>
+                <h3 class="frases"> Para continuar Parando.</h3>
+
+                <br><br>
+
+                <h3 class="frases">2* A motocicleta precisa de </h3>
+                <h3 id="palavra2" onclick="f5()" class="frases2">........ </h3>
+                <h3 class="frases"> Para continuar seguindo.</h3>
+
+            </div>
+
+            <div class="lado">
+                 <img id="fotoprincipal" class="toninho" src="img/1.jpg" alt=""> <br>
+            </div>
+
+        </div>
+ 
+        <div style="display: flex;">  
+
+            <div style="display: flex; 
+                align-items: stretch;
+                flex-direction: column;
+                align-content: flex-start;
+                justify-content: space-around; width: 60%;">
+                    <button class="botoes" onclick="f10()"> Carro </button>
+                    <button class="botoes" onclick="f11()"> Pneu </button> <br>
+                    <button class="botoes" onclick="f12()"> Freio </button>
+                    <button class="botoes" onclick="f13()"> Oleo </button>
+            </div> 
+            <div class="tela2" style="width: 40%; display: flex; 
+                align-items: stretch;
+                flex-direction: column;
+                align-content: flex-start;">
+                <button class="corrigir" onclick="f18()"> Corrigir </button>
+                <button class="corrigir2" onclick="window.location.reload()"> voltar </button>
+            </div>       
+
+        </div>
+
+
+
+
+
+
+
+        <h1 id="volta" style="display: none;"> Recomeçando .... </h1>
+
+        <br>
+        <p> Projeto java script <br> dev: <strong>EllCTCH</strong> </p>
+
+
+        <p class="fim"> fim da pagina </p>
+
+    </div>
+
+</body>
+
+</html>
